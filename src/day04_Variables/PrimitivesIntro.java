@@ -20,6 +20,34 @@ public class PrimitivesIntro {
 
         double PI =3.14;
 
+        char ch1 = '#';
+        System.out.println("ch1 = " + ch1);
+
+        char ch2 =35;
+        System.out.println("ch2 = " + ch2);
+
+
+        char ch3 =35000;
+        System.out.println("ch3 = " + ch3);
+        char gender ='F';
+        char grade = 'F';
+
+        char ch4 = 15000;
+        System.out.println("ch4 = " + ch4);
+
+        boolean isEmployed = true;
+        boolean isMarried = false;
+
+        boolean result = 100 > 300 ;
+        System.out.println("result = " + result);
+
+        String name = "Wooden spoon";
+        String city = "McLean";
+
+
+
+
+
 
 
     }
