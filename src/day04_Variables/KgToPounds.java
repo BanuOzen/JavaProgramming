@@ -7,7 +7,5 @@ public class KgToPounds {
         System.out.println("kg = " + kg);
         System.out.println("lb = " + lb);
 
-
-
     }
 }
