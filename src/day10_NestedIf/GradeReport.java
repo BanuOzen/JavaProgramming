@@ -3,24 +3,26 @@ package day10_NestedIf;
 public class GradeReport {
     public static void main(String[] args) {
         int score = 85;
+        String result="";
 
         if(score >= 0 && score<=100){ // if the score is valid
 
             if(score>=90){
-                System.out.println("Excellent");
+                result="Excellent";
             }else if(score>=80){
-                System.out.println("Great");
+                result="Great";
             }else if(score>=70){
-                System.out.println("Good");
+                result="Good";
             }else if(score>=60){
-                System.out.println("Passed");
+                result="Passed";
             }else {
-                System.out.println("Failed");
+                result="Failed";
             }
 
         }else{ // if the score is not valid
-            System.out.println("Invalid Score");
+            result="Invalid Score";
         }
+        System.out.println(result);
 
     }
 }
