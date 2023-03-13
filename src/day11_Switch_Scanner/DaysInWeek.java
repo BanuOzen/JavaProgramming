@@ -3,7 +3,7 @@ package day11_Switch_Scanner;
 public class DaysInWeek {
     public static void main(String[] args) {
 
-        int number = 5;
+        int number = 9;
 
         String result="";
 
