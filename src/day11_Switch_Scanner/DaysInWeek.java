@@ -7,31 +7,32 @@ public class DaysInWeek {
 
         String result="";
 
-        switch(number){
+        switch(number) {
             case 1:
-                result="Monday";
+                result = "Monday";
                 break;
             case 2:
-                result="Tuesday";
+                result = "Tuesday";
                 break;
             case 3:
-                result="Wednesday";
+                result = "Wednesday";
                 break;
             case 4:
-                result="Thursday";
+                result = "Thursday";
                 break;
             case 5:
-                result="Friday";
+                result = "Friday";
                 break;
             case 6:
-                result="Saturday";
+                result = "Saturday";
                 break;
             case 7:
-                result="Sunday";
+                result = "sunday";
                 break;
+            default:
+                result="Invalid";
 
-
-        }
+        }      System.out.println(result);
 
 
 
