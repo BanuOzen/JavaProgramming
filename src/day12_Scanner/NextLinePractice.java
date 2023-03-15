@@ -27,6 +27,8 @@ public class NextLinePractice {
         System.out.println("gpa = " + gpa);
         System.out.println("schoolName = " + schoolName);
 
+        input.close();
+
 
     }
 }
