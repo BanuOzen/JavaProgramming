@@ -15,7 +15,7 @@ public class ScannerPractice2 {
         String name = input.next();
 
         System.out.println("name = " + name);
-
+        input.close();
 
     }
 }
