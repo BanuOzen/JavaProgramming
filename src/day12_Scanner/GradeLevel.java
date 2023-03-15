@@ -7,9 +7,12 @@ public class GradeLevel {
         String result ="";
 
 
-        if(number>=1 && number<=18){
 
             switch (number){
+
+                case 1: case 2: case 3: case 4: case 5:
+                    result="Elementary School";
+                    break;
                 case 6: case 7: case 8:
                     result="Middle School";
                     break;
@@ -22,14 +25,11 @@ public class GradeLevel {
                 case 17: case 18:
                     result="Grad School";
                     break;
-                default://1-5
-                    result="Elementary School";
+                default:
+                    result="Invalid Grade";
 
             }
 
-        }else{
-            result="Invalid Grade";
-        }
 
         System.out.println(result);
 
