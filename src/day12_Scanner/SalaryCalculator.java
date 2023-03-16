@@ -29,7 +29,7 @@ public class SalaryCalculator {
         System.out.println("federalTax = " + federalTax);
         System.out.println("totalTax = " + totalTax);
         System.out.println("netIncome = " + netIncome);
-
+        input.close();
 
 
     }
