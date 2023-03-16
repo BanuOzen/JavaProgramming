@@ -28,7 +28,7 @@ public class GradeReport {
             System.out.println("Invalid value");
         }
 
-
+        scan.close();
 
 
     }
