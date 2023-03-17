@@ -27,6 +27,21 @@ public class StringMethods1 {
         int n5 = str3.lastIndexOf("g");
         System.out.println("n5 = " + n5);
 
+        System.out.println("-----------------");
+
+
+        String s = "Java Nova Cava Wawa orange";
+        int firstA = s.indexOf("a");
+        int lastA = s.lastIndexOf("a");
+        int secondA = s.indexOf("a ");
+        int thirdA = s.indexOf("a C");
+
+        System.out.println("firstA = " + firstA);
+        System.out.println("lastA = " + lastA);
+        System.out.println("secondA = " + secondA);
+        System.out.println("thirdA = " + thirdA);
+
+
 
 
 
