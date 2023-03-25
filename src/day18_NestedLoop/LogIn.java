@@ -12,7 +12,7 @@ public class LogIn {
         System.out.println("Enter your password: ");
         String p = scan.next();
 
-        if(u.equals("Cydeo") && p.equals("WoodenSpoon")){
+        if( u.equals("Cydeo") && p.equals("WoodenSpoon") ){
             System.out.println("Logged In");
         }else{
 
@@ -29,13 +29,13 @@ public class LogIn {
 
 
             }
-            if(!(u.equals("Cydeo") && p.equals("WoodenSpoon"))){
+            if( !(u.equals("Cydeo") && p.equals("WoodenSpoon")) ){
                 System.err.println("Your account is locked, Please contact support team");
             }
 
         }
 
-
+scan.close();
 
 
 
