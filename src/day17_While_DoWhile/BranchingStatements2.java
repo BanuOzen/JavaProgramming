@@ -30,7 +30,6 @@ public class BranchingStatements2 {
                 continue;//skip
             }
             System.out.println(i);
-
         }
 
 
