@@ -22,7 +22,7 @@ public class ArraysIntro {
         String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 
         System.out.println(Arrays.toString(days));
-         int number =5;
+         int number =1;
 
          if(number<1 || number>7){
              System.err.println("Invalid Number");
