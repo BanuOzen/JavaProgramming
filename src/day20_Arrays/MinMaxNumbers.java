@@ -1,5 +1,6 @@
 package day20_Arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MinMaxNumbers {
@@ -26,6 +27,8 @@ public class MinMaxNumbers {
                 min = numbers[i];
             }
         }
+        System.out.println("numbers = " + Arrays.toString(numbers));
+
         System.out.println("min = " + min);
         System.out.println("max = " + max);
 
