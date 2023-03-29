@@ -14,17 +14,19 @@ public class Alphabet {
         alphabets[2]='Z';//88
            ...
  */
-        /*
+
         char ch ='Z';
         for(int i = 0; i< alphabets.length; i++, ch--){
             alphabets[i] =ch;
         }
 
-         */
 
+/*
         for (char i = 0, j ='Z'; i< alphabets.length; i++,j--){
             alphabets[i]=j;
         }
+
+ */
 
 
 
