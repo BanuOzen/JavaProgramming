@@ -11,10 +11,13 @@ public class ArraysPractice2 {
 
         */
 
-        for (char i = 'A', j=0; i <= 'Z' &&  j < letters.length ; i++,j++) {
+       /* for (char i = 'A', j=0; i <= 'Z' &&  j < letters.length ; i++,j++) {
             letters[j]=i;
         }//i:index numbers 0~last index
-        
+        */
+        for (int i = 0, j ='A'; i < letters.length; i++,j++) {
+            letters[i]=(char)j;
+        }
         
 
 
@@ -22,6 +25,8 @@ public class ArraysPractice2 {
         for (int i = 0; i < letters.length; i++, ch++) {
             letters[i]=ch;
         }
+
+
 
         System.out.println(Arrays.toString(letters)); //[A~Z]
 
