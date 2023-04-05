@@ -36,9 +36,14 @@ public class CustomMethodsWithParameters {
         System.out.println("Your age is: " + age);
 
 
+    }
+
+    //                                                          10    50
+    // create a function that can print all the numbers between X and Y
+
+    public static void printNumbers(int x, int y){
 
 
     }
-
 
 }
