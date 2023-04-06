@@ -1,6 +1,6 @@
 package day23_CustomMethods_Void;
 
-import javax.swing.plaf.synth.SynthFormattedTextFieldUI;
+
 
 public class CustomMethodsPractice {
     public static void main(String[] args) {
