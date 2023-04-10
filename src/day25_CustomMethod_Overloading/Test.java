@@ -11,6 +11,11 @@ public class Test {
 
         StringUtility.printEachChar(str);
 
+        System.out.println("========================");
+
+        String s1 = "Wooden Spoon";
+        StringUtility.reverse(s1);
+
 
     }
 
