@@ -34,6 +34,13 @@ public class Test {
         }
         System.out.println(count);
 
+        System.out.println("=============================");
+
+        String s2 = "aaaaabbbbbcccddddd";
+        String nonDup = StringUtility.removeDuplicates(s2);
+        System.out.println(nonDup);
+
+
 
     }
 
