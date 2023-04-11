@@ -3,7 +3,7 @@ package Utilities;
 public class ArraysUtility {
 
     //prints each integer of an integer array in separate lines
-    public static void printEach(int[] array){
+    public static void printEachElement(int[] array){
 
         for (int each: array) {
             System.out.println(each);
@@ -12,7 +12,7 @@ public class ArraysUtility {
     }
 
     //prints each double of a double array in separate lines
-    public static void printEach(double[] array){
+    public static void printEachElement(double[] array){
 
         for (double each: array) {
             System.out.println(each);
@@ -21,7 +21,7 @@ public class ArraysUtility {
     }
 
     //prints each char of a char array in separate lines
-    public static void printEach(char[] array){
+    public static void printEachElement(char[] array){
 
         for (char each: array) {
             System.out.println(each);
@@ -31,13 +31,16 @@ public class ArraysUtility {
 
 
     //prints each String of a String array in separate lines
-    public static void printEach(String[] array){
+    public static void printEachElement(String[] array){
 
         for (String each: array) {
             System.out.println(each);
         }
 
     }
+
+
+
 
 
 
