@@ -32,6 +32,24 @@ public class Test2 {
         String[] names = {"David", "Elvira", "Ali", "Igor"};
         ArraysUtility.printEachElement(names);
 
+        System.out.println("===========================");
+
+        int[] n1 = {10,2,3,4,5,6};
+
+        int max1 = ArraysUtility.max(n1);
+        System.out.println("max1 = " + max1);
+
+
+        System.out.println("============================");
+
+
+        double[] n2 = {2.3,4.5,6.6,7.8,20.5};
+        double max2 = ArraysUtility.max(n2);
+        System.out.println("max2 = " + max2);
+
+
+
+
 
 
     }

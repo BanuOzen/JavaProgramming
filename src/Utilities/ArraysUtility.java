@@ -57,6 +57,47 @@ public class ArraysUtility {
         return numbers[numbers.length-1];
     }
 
+    //returns the min number for integer array
+    public static int min(int[] numbers){
+        Arrays.sort(numbers);
+        return numbers[0];
+    }
+
+
+    //returns the min number for double array
+    public static double min(double[] numbers){
+        Arrays.sort(numbers);
+        return numbers[0];
+    }
+
+    //checks if the given integer is contained in the given array. returns boolean. contains(int[], int)
+    public static boolean contains(int[] array, int element){
+        //                               {1,2,3,4}            6
+        boolean result = false;
+
+        for (int each : array) {
+            if(each == element){
+                result = true;
+            }
+        }
+        return result;
+    }
+
+    //checks if the given double is contained in the given array.
+    // returns boolean. contains(double[], double)
+    public static boolean contains(double[] array, double element){
+        //                                  {}               6
+        boolean result = false;
+
+        for (double each : array) {
+            if(each == element){
+                result = true;
+            }
+        }
+        return result;
+    }
+
+
 
 
 
