@@ -70,23 +70,26 @@ public class ArraysUtility {
         return numbers[0];
     }
 
-    //checks if the given integer is contained in the given array. returns boolean. contains(int[], int)
+    
+    //checks if the given integer is contained in the given array. 
+    // returns boolean. contains(int[], int)
     public static boolean contains(int[] array, int element){
         //                               {1,2,3,4}            6
         boolean result = false;
 
         for (int each : array) {
-            if(each == element){
+            if(each == element){ // if any arrays element is matching with the given element, it means the given elements is
                 result = true;
             }
         }
         return result;
     }
 
+    
     //checks if the given double is contained in the given array.
     // returns boolean. contains(double[], double)
     public static boolean contains(double[] array, double element){
-        //                                  {}               6
+        //
         boolean result = false;
 
         for (double each : array) {
@@ -98,6 +101,34 @@ public class ArraysUtility {
     }
 
 
+    //checks if the given char is contained in the given array.
+    // returns boolean. contains(char[], char)
+    public static boolean contains(char[] array, char element){
+        //
+        boolean result = false;
+
+        for (char each : array) {
+            if(each == element){
+                result = true;
+            }
+        }
+        return result;
+    }
+
+
+    //checks if the given String is contained in the given array.
+    // returns boolean. contains(String[], String)
+    public static boolean contains(String[] array, String element){
+        //
+        boolean result = false;
+
+        for (String each : array) {
+            if(each.equals(element)){
+                result = true;
+            }
+        }
+        return result;
+    }
 
 
 
