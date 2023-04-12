@@ -33,6 +33,27 @@ public class RemoveElements1 {
         }
         return result;
     }
+    public static double[] removeElement(double[] array, int index){
+
+        if(index < 0 || index > array.length-1){
+            System.err.println("Invalid Index: " + index);
+            System.exit(0);
+        }
+
+
+        double[] result = new double[array.length-1];
+
+        int j = 0;
+        for (int i =0; i< array.length; i++) {
+            if(i == index){
+                // if the index of array matching with the given index
+                continue;//skip
+            }
+            result[j++] =array[i];
+
+        }
+        return result;
+    }
 
 }
 /*
