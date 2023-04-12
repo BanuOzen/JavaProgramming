@@ -131,5 +131,103 @@ public class ArraysUtility {
     }
 
 
+    //add the given element to array, returns a new array
+    public static int[] addElement(int[] array, int element){
+        int[] result = new int[array.length+1];
+
+        int i = 0;
+        for (int each : array) {
+            result[i++]=each;
+
+        }
+        result[i]= element;
+
+        return result;
+
+    }
+
+
+    //add the given element to array, returns a new array
+    public static double[] addElement(double[] array, double element){
+        double[] result = new double[array.length+1];
+
+        int i = 0;
+        for (double each : array) {
+            result[i++] = each;
+
+        }
+        //result[i]=element;// element need to be assigned to the last index
+        result[result.length-1]=element;
+        return result;
+
+    }
+
+    //add the given element to array, returns a new array
+    public static String[] addElement(String[] array, String element){
+        String[] result = new String[array.length+1];
+
+        int i = 0;
+        for (String each : array) {
+            result[i++]=each;
+        }
+        result[result.length-1]=element;
+        return result;
+
+    }
+
+    //add the given element to array, returns a new array
+    public static char[] addElement(char[] array, char element){
+        char[] result = new char[array.length+1];
+
+        int i = 0;
+        for (char each : array) {
+            result[i++]=each;
+        }
+        result[result.length-1]=element;
+        return result;
+
+    }
+    public static int frequencyOfElement(int[] array, int element){
+        int count = 0;
+        for (int each : array) {
+            if(each==element){
+                count++;
+            }
+        }
+        return count;
+
+    }
+    // returns the frequency of the given element from the given array
+    public static int frequencyOfElement(double[] array, double element){
+        int count = 0;
+        for (double each : array) {
+            if(each==element){
+                count++;
+            }
+        }
+        return count;
+
+    }
+    public static int frequencyOfElement(char[] array, char element){
+        int count = 0;
+        for (char each : array) {
+            if(each==element){
+                count++;
+            }
+        }
+        return count;
+
+    }
+    public static int frequencyOfElement(String[] array, String element){
+        int count = 0;
+        for (String each : array) {
+            if(each.equals(element)){
+                count++;
+            }
+        }
+        return count;
+
+    }
+
 
 }
