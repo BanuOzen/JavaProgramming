@@ -4,6 +4,8 @@ import Utilities.ArraysUtility;
 
 public class ReverseArray2 {
 
+
+    // reverse the given array, returns a new array
     public static int[] reverse(int[] array){
 
         int[] result = {};
@@ -12,5 +14,7 @@ public class ReverseArray2 {
         }
         return result;
     }
+
+
 
 }
