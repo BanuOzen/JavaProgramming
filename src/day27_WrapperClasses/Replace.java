@@ -10,6 +10,11 @@ public class Replace {
         replace(arr, 2, 30);
 
         System.out.println(Arrays.toString(arr));
+        String[] arr2 = {"Java", "Python", "C++", "Ruby"};
+
+        arr2 = replace(arr2, 2, "C++");
+        System.out.println(Arrays.toString(arr2));
+
     }
 
     public static int[] replace(int[] array, int index ,int newElement){
