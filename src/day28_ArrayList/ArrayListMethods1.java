@@ -45,6 +45,30 @@ public class ArrayListMethods1 {
 
         System.out.println(list);
 
+        System.out.println("===========================");
+
+        ArrayList<String> employees = new ArrayList<>();
+        employees.add("Suat");
+        employees.add("Aygun");
+        employees.add("Olga");
+        employees.add("Neira");
+        employees.add("Ali");
+        employees.add("Hulya");
+        employees.add("Kaloyan");
+
+        System.out.println(employees);
+
+        employees.remove(0);
+
+        System.out.println(employees);
+
+        employees.remove(0);
+
+        System.out.println(employees);
+
+        employees.remove(0);
+
+        System.out.println(employees);
 
 
 
