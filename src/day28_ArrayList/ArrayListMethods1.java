@@ -70,6 +70,24 @@ public class ArrayListMethods1 {
 
         System.out.println(employees);
 
+        employees.remove(1);
+
+        System.out.println(employees);
+
+        employees.remove( employees.size()-1 );
+
+        System.out.println(employees);
+
+        boolean r1 = employees.remove("Hulya");
+
+        System.out.println(employees);
+
+        boolean r2 = employees.remove("Neira");
+
+        System.out.println(employees);
+        System.out.println("r1 = " + r1);
+        System.out.println("r2 = " + r2);
+
 
 
 
