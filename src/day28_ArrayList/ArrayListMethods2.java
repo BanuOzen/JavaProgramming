@@ -34,6 +34,24 @@ public class ArrayListMethods2 {
         System.out.println(list.size());
         System.out.println(list);
 
+        System.out.println("==========================");
+
+        ArrayList<Character> characters = new ArrayList<>();
+        characters.add('A');
+        characters.add('A');
+        characters.add('A');
+        characters.add('A');
+        characters.add('A');
+
+        int a = characters.indexOf('A');  //0
+        int b = characters.lastIndexOf('A');  //4
+        System.out.println(a);
+        System.out.println(b);
+
+
+        System.out.println("================================");
+
+
 
 
 
