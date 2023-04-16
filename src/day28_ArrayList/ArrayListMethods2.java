@@ -51,6 +51,28 @@ public class ArrayListMethods2 {
 
         System.out.println("================================");
 
+        boolean r2 = characters.contains('A');
+
+        boolean r3 = characters.contains('Z');
+        System.out.println("r2 = " + r2);
+        System.out.println("r3 = " + r3);
+
+        System.out.println("==============================");
+
+        ArrayList<Integer> list1 = new ArrayList<>();
+        list1.add(100);
+        list1.add(100);
+        list1.add(100);
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+        list2.add(100);
+        list2.add(100);
+        list2.add(100);
+
+        System.out.println( list1 == list2 );
+        System.out.println(list1.equals(list2));
+
+
 
 
 
