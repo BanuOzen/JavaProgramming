@@ -7,6 +7,7 @@ import java.util.Collections;
 public class UniqueElements {
     public static void main(String[] args) {
 
+        // One solution
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1,1,2,3,3,4,5,6,7,7,8,9,9));
 
@@ -23,6 +24,7 @@ public class UniqueElements {
 
         System.out.println("=======================");
 
+        // two solution
         ArrayList<Integer> list2 = new ArrayList<>();
         list2.addAll(Arrays.asList(1,1,2,3,3,4,5,6,7,7,8,9,9));
 
@@ -31,6 +33,7 @@ public class UniqueElements {
         unique2.removeIf( p-> Collections.frequency(list2,p) > 1 );
 
         System.out.println("unique2 = " + unique2);
+
 
 
 
