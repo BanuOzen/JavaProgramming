@@ -32,7 +32,17 @@ public class CollectionsUtility {
         list3.addAll(Arrays.asList(10,20,30,40,50,60,70));
 
         Collections.swap(list3,1,4);
+
         System.out.println(list3);
+
+        System.out.println("=======================");
+
+        int max = Collections.max(list3);
+        int min = Collections.min(list3);
+
+        System.out.println("max = " + max);
+        System.out.println("min = " + min);
+
 
 
     }
