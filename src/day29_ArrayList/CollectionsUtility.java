@@ -43,6 +43,28 @@ public class CollectionsUtility {
         System.out.println("max = " + max);
         System.out.println("min = " + min);
 
+        System.out.println("=======================");
+
+        ArrayList<Integer> list4 = new ArrayList<>();
+        list4.addAll(Arrays.asList(10,10,20,30,40,50,10,10,10));
+
+        Collections.replaceAll(list4, 10, 1000);
+
+        System.out.println(list4);
+        System.out.println("=======================");
+
+        int frequency = Collections.frequency(list4, 1000);
+        System.out.println("frequency = " + frequency);
+
+        System.out.println("=======================");
+
+        ArrayList<String> words = new ArrayList<>();
+        words.addAll(Arrays.asList("Java", "Java", "Python", "Python", "Ruby", "C#", "Java"));
+        int countJava = Collections.frequency(words,"Java");
+        int countPython = Collections.frequency(words, "Python");
+
+        System.out.println("countJava = " + countJava);
+        System.out.println("countPython = " + countPython);
 
 
     }
