@@ -81,8 +81,10 @@ public class WarmupTasks {
         System.out.println("digits = " + digits);
 
         ArrayList<Character> specialChar = new ArrayList<>( chars );
-        specialChar.removeAll( letters );
-        specialChar.removeAll(digits);
+        //specialChar.removeAll( letters );
+        //specialChar.removeAll(digits);
+
+        specialChar.removeIf(p-> Character.isLetterOrDigit(p));
         System.out.println("specialChar = " + specialChar);
 
 
