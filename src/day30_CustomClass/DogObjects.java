@@ -21,11 +21,17 @@ public class DogObjects {
         dog2.size = "Large";
         dog2.color = "White & Black";
 
-
+        Dog dog3 = new Dog();
+        dog3.setInfo("Jack", "German Shepard", 2,'M', "Large","Black");
 
 
         System.out.println(dog1);
         System.out.println(dog2);
+        System.out.println(dog3);
+
+        dog1.eat();
+
+        dog2.bark();
 
 
 
