@@ -41,6 +41,17 @@ public class ScrumTeam {
         devopsList.removeIf( p-> p.employeeID == employeeID);
     }
 
+    public String toString() {
+        return "ScrumTeam{" +
+                "PO='" + PO + '\'' +
+                ", BA='" + BA + '\'' +
+                ", SM='" + SM + '\'' +
+                ", total number of testers=" + testersList.size() +
+                ", total number of developers=" + devopsList.size() +
+                ", daysOfSprint=" + daysOfSprint +
+                '}';
+    }
+
 
 }
 /*
