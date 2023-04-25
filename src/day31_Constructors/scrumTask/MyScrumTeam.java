@@ -40,8 +40,11 @@ public class MyScrumTeam {
 
         for (Developer eachDeveloper : scrum.devopsList) {
             System.out.println(eachDeveloper.name + " : " + eachDeveloper.salary);
-            
         }
+
+        scrum.removeTester( 23 );
+        scrum.removeDeveloper(22);
+        System.out.println( scrum );
 
 
 
