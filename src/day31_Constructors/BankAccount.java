@@ -7,7 +7,7 @@ public class BankAccount {
     public double balance;
 
 
-    public void setInfo(String accountHolder, long accountNumber, double balance){
+    public void setInfo(String accountHolder, long accountNumber){
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;
     }
