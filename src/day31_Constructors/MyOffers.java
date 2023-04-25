@@ -43,7 +43,8 @@ public class MyOffers {
         System.out.println(localOffers.size());
 
         for (Offer localOffer : localOffers) {
-            System.out.println(localOffer.companyName + " : " + localOffer.salary);
+            System.out.println( localOffer.companyName + " : " + localOffer.salary );
+
         }
 
 
