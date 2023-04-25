@@ -21,11 +21,10 @@ public class Employee {
         this.isFullTime = isFullTime;
     }
 
-    @Override
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
+                ", gender=" + gender +
                 ", age=" + age +
                 ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
