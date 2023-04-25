@@ -7,8 +7,9 @@ public class PersonObjects {
 
        Person person2 = new Person("Kseniia", 'F', 28);
 
-        System.out.println(person1);
+       person2.age = 30;
 
+        System.out.println(person1);
         System.out.println(person2);
 
 
