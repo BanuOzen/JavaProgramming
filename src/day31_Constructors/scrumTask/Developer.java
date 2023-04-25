@@ -22,13 +22,26 @@ public class Developer {
                 ", salary=$" + salary +
                 '}';
     }
+
+    public void coding(){
+        System.out.println(name + " is coding");
+    }
+
+    public void unitTesting(){
+        System.out.println(name + " is unit testing");
+    }
+
+    public void fixingBug(){
+        System.out.println(name + " is fixing bug");
+    }
+
 }
 /*
 create a class called Developer
 	          Attributes:
 	            name, employeeID, JobTitle, Salary
 
-	          Add A constructor that can set all the fileds
+	          Add A constructor that can set all the fields
 
 	          Actions:
 	            coding(), unitTesting(), fixingBug(), toString()
