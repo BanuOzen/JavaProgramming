@@ -11,7 +11,16 @@ public class AccessModifiers_Test2 {
        // System.out.println(AccessModifiers.privateData);// private Access Modifier is not visible outside the package
 
 
+        AccessModifiers.method1();
+       // AccessModifiers.method2();
+       // AccessModifiers.method3();
+
+
 
     }
+
+}
+
+ class D{
 
 }
