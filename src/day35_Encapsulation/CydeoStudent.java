@@ -27,13 +27,36 @@ public class CydeoStudent {
         secretCode = "Wooden Spoon";
     }
 
+    public static void printProgrammingLanguage(){
+        System.out.println("Programming Language: " + programmingLanguage);
+    }
+    public static void printSchoolName(){
+        System.out.println("School Name: " + schoolName);
+    }
 
+    public static void printSecretCode(){
+        System.out.println("code is " + secretCode);
+    }
+    public void attendClass(){
+        System.out.println(name + " is attending class");
+    }
 
+    public void study(){
+        System.out.println(name + " is studying");
+    }
 
-
-
-
-
+    public String toString() {
+        return "CydeoStudent{" +
+                "name='" + name + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", batchNumber=" + batchNumber +
+                ", groupNumber=" + groupNumber +
+                ", fieldOfStudy='" + fieldOfStudy + '\'' +
+                ", school='" + schoolName + '\'' +
+                ", programming language ='" + programmingLanguage + '\'' +
+                '}';
+    }
 }
 /*
 2. create a class named CybertekStudent
