@@ -7,6 +7,9 @@ public class Student {
     private char gender, grade;
     private String schoolName;
 
+    public static boolean isStudent = true;
+    public static boolean isHuman = true;
+
     public Student(String name, int age, char gender, char grade, String schoolName) {
        setName(name);
        setAge(age);
