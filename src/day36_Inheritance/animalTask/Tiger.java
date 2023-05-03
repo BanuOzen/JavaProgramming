@@ -17,5 +17,5 @@ public class Tiger extends Animal{ // Tiger is an animal
 /*
 Tiger:
         6 variables
-        6 methods
+        8 methods
  */
