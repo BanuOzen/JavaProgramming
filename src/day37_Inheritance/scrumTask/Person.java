@@ -6,6 +6,12 @@ public class Person {
     public int age;
     public char gender;
 
+    public Person(String name, int age, char gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
     public void eat(String food){
         System.out.println(name + " is eating");
     }
