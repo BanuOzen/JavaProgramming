@@ -21,11 +21,11 @@ public class Employee extends Person{
 
     public String toString() {
         return "Employee{" +
-                ", name='" + name + '\'' +
+                " name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
                 ", id=" + id +
-                "jobTitle='" + jobTitle + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
                 ", salary= $" + salary +
                 ", companyName='" + companyName + '\'' +
 

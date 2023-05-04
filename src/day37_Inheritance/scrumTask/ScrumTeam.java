@@ -1,6 +1,7 @@
 package day37_Inheritance.scrumTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScrumTeam {
 
@@ -21,5 +22,33 @@ public class ScrumTeam {
         testers.add( tester );
     }
 
+    public void addTesters(Tester[] testers){
+        this.testers.addAll(Arrays.asList( testers ));
+    }
 
+    public void removeTester(int id){
+        testers.removeIf(p-> p.id == id);
+    }
+
+    public void addDeveloper(Developer developer){
+        developers.add( developer );
+    }
+
+    public void addDevelopers(Developer[] developers){
+        this.developers.addAll( Arrays.asList( developers ) );
+    }
+
+    public void removeDeveloper(int id){
+        developers.removeIf(p -> p.id == id);
+    }
+
+    public String toString() {
+        return "ScrumTeam{" +
+                "PO=" + PO.name +
+                ", BA=" + BA.name +
+                ", SM=" + SM.name +
+                ", number of testers=" + testers.size() +
+                ", number of developers=" + developers.size() +
+                '}';
+    }
 }
