@@ -13,11 +13,11 @@ public class Person {
     }
 
     public void eat(String food){
-        System.out.println(name + " is eating");
+        System.out.println(name + " is eating" + food);
     }
 
     public void drink(String drink){
-        System.out.println(name + " is drinking");
+        System.out.println(name + " is drinking" + drink);
     }
 
     public String toString() {
