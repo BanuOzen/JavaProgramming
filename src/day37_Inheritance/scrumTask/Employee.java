@@ -1,7 +1,7 @@
 package day37_Inheritance.scrumTask;
 
 public class Employee extends Person{
-
+  // Employee IS A Person
     public String jobTitle;
     public int id;
     public double salary;
