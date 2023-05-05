@@ -23,14 +23,12 @@ public class Car {
     public void drive(){
         System.out.println(brand + " " + model + " is driving");
     }
-
     /*
     public void fly(){
 
     }
     fly() is not common for all the cars,
      */
-
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
@@ -41,4 +39,11 @@ public class Car {
                 ", miles=" + miles +
                 '}';
     }
+
+
+
+
+
+
+
 }
