@@ -7,7 +7,7 @@ public class Square extends Shape{
         return side;
     }
 
-    public void setSide(double size) {
+    public void setSide(double side) {
         if( side <= 0 ){
             System.err.println("Invalid side: " + side);
             System.exit(1);
