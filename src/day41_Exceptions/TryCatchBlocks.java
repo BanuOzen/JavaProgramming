@@ -62,12 +62,14 @@ public class TryCatchBlocks {
             e.printStackTrace();
         }
 
+
         System.out.println("Cydeo");
 
         System.out.println("=============================");
 
+
         try {
-            FileInputStream fie = new FileInputStream("File path");
+            FileInputStream file = new FileInputStream("File path");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
