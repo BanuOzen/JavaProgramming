@@ -1,7 +1,5 @@
 package day42_Exceptions;
 
-import java.io.FileNotFoundException;
-
 public class ThrowsKeyword {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("------------TEST1--------------");
@@ -23,6 +21,8 @@ public class ThrowsKeyword {
         System.out.println("Batch 25");
 
         System.out.println("-------------Test2 Completed--------------");
+
+
 
 
 
