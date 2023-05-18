@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-public final class Eagle extends Animal implements WildAnimal {
+public final class Eagle extends Animal implements WildAnimal, Flyable {
     public Eagle(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }
@@ -16,4 +16,8 @@ public final class Eagle extends Animal implements WildAnimal {
         System.out.println(getName() + " hunts deer");
     }
 
+    @Override
+    public void fly() {
+        System.out.println(getName() + " can fly 50km/h");
+    }
 }
