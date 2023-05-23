@@ -6,7 +6,7 @@ public class Circle extends Shape{
     public final static double pi = 3.14;
 
     public Circle(String name, double radius) {
-        super(name);
+        super("Circle");
         setRadius(radius);
     }
 
