@@ -34,8 +34,8 @@ public class WrapperClassMethods {
         Integer x = Integer.valueOf(s2);
         int y = Integer.valueOf(s2);
 
-        System.out.println(x);
-        System.out.println(y);
+        System.out.println(x);//123
+        System.out.println(y);//123
 
         String s3 = "1.5";
         Double z = Double.valueOf(s3);
