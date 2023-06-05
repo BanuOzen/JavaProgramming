@@ -55,11 +55,16 @@ public class StreamPractice {
 
         names.stream().filter(p-> p.equalsIgnoreCase("java")).forEach(p-> System.out.println(p));
 
-        List<Integer> list7 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        List<Integer> list7 = new ArrayList<>(Arrays.asList(2,4,6,7,8,9,10,30));
 
+        boolean r1 = list7.stream().allMatch(p-> p % 2 == 0);
+        System.out.println(r1);
 
+        boolean r2 = list7.stream().anyMatch(p-> p > 20);
+        System.out.println(r2);
 
-
+        boolean r3 = list7.stream().noneMatch(p-> p%3 == 0);
+        System.out.println(r3);
 
 
     }
